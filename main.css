@@ -1,0 +1,25 @@
+body {
+  background-color: grey;
+}
+main {
+  width: 60vw;
+  margin: 100px auto 0 auto;
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 1rem;
+}
+
+div#left {
+  background-color: hsla(44, 100%, 50%, 0.61);
+  height: 90px;
+
+  aspect-ratio: 1;
+
+  border-radius: 100%;
+
+  background-image: url("https://api.dicebear.com/9.x/pixel-art/svg?seed=cindy");
+}
+
+div#right {
+  background-color: hsla(44, 100%, 50%, 0.61);
+}
